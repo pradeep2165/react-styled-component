@@ -1,5 +1,5 @@
 import "./App.css";
-import StyledButton, { FancyButton } from "./components/Button/Button";
+import StyledButton, { FancyButton, SubmitButton } from "./components/Button/Button";
 
 function App() {
   return (
@@ -9,9 +9,16 @@ function App() {
         <hr />
       </div>
       <StyledButton variant="outline">Outline Button </StyledButton>
-      <hr />
+      <div>
+        {" "}
+        <hr />
+      </div>
       {/* as='a' is for teat as ancher tag */}
       <FancyButton as="a">Fancy Button </FancyButton>
+      <div>
+        <hr />
+      </div>
+      <SubmitButton>Submit</SubmitButton>
     </div>
   );
 }
