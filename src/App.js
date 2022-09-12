@@ -4,8 +4,11 @@ import StyledButton from "./components/Button/Button";
 function App() {
   return (
     <div className="App">
-      {/* <button>button</button> */}
       <StyledButton>Button</StyledButton>
+      <div>
+        <hr />
+      </div>
+      <StyledButton variant="outline">Outline Button </StyledButton>
     </div>
   );
 }
